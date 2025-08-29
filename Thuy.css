@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top, #7fb9ff, #5f94fe, #c982ff, #ff6161 , #ff5252);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ddd;
+  background-color: #ffffff;
+  transition: transform 1.35s;
+}
+
+.profile-pic:hover img {
+  transform: scale(1.4);
+}
+
+h2 {
+  margin: 15px 0 5px;
+  font-size: 24px;
+  color: #333;
+}
+
+.role {
+  color: #777;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.intro {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.socials a img {
+  width: 30px;
+  margin: 0 8px;
+  transition: transform 1.5s;
+}
+
+.socials a:hover img {
+  transform: scale(2);
+}
